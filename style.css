@@ -1,0 +1,377 @@
+
+
+nav li:hover{
+     background-color: rgb(229, 221, 233);
+     border-radius: 25px;
+    
+     
+}
+nav li{
+    padding-left: 10px;
+}
+
+
+
+/* home */
+#home{
+    padding-top: 8%;
+  }
+  .home{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1rem;
+    min-height:100vh;
+    align-items: center;
+    background-color: #efefef;
+    /* background-image: url('./assests/cover2.jfif');
+ background-size: contain; */
+    
+  }
+ 
+  .home .content{
+    flex: 1 1 40rem;
+  }
+  
+  .home .image{
+    flex: 1 1 28rem;
+  }
+ 
+ .home .image img{
+    width:400px;
+    height: 400px;
+    padding:1rem;
+   
+ } 
+ 
+
+
+
+
+/* Couses */
+@media only screen and (max-width: 768px) {
+     body{
+        #Courses .image{
+            width:150px;
+            height: 110px;
+        }
+        .slider-wrapper{
+            slidesPerView: 2,
+        }
+    } 
+ }
+#courses{
+    min-height: 100vh;
+    padding-top: 8%;
+    background-color: #f7d3d3;
+            text-decoration: none;
+
+}
+ #courses h1{
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+}
+ #courses h2{
+    text-align: center;
+}
+ #courses .image{
+   
+    width:250px;
+    height: 200px;
+    border-radius: 25px;
+    border:2px solid black;
+}
+#courses .card-list{
+   
+    margin:10px;
+    padding:40px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;  
+    transition: transform 2s;
+}
+  /* .card-item{
+
+    padding: 10px;
+    
+}   */
+#courses .card-item:hover{
+    transform: scale(1.1);
+}
+#courses .fullstack{
+
+    text-align: center;
+}
+#courses a{
+    text-decoration: none;
+    font-size: 16px;
+   
+}
+#courses a:hover{
+    color: black;
+    
+}
+/* staffteach */
+#staffteach{
+    min-height: 100vh;
+    padding-top: 8%;
+    background-color: #efefef;
+}
+.staff-img{
+    height: 190px;
+    width: 200px;
+    background-color: #d82222;
+    border-radius: 50%;
+    box-shadow: -10px -10px 0;
+    transition: -5s;
+   }
+   .staff-content{
+    text-align: center;
+   }
+   .staff-name{
+    color: #f58d17;
+    margin-top: 10px;
+   }
+
+
+   /* Register */
+   #register{
+    min-height: 100vh;
+    padding-top: 8%;
+    background-color: #efefef;
+   }
+   #login{
+    display: none;
+   }
+   
+   /* #signup{
+    display: none;
+   } */
+   /* Contact */
+   #cont{
+    background-color: #efefef;
+    max-height: 100vh;
+    padding-top: 8%;
+   }
+   .fa-address-book {
+    font-size: 15px;
+    color:white;
+    background-color: black;
+    width:20px;
+    height: 20px;
+    border-radius: 50%;
+    padding:7px;
+    text-align: center;
+}
+.fa-phone {
+   font-size: 15px;
+   color:white;
+    background-color: black;
+    width:20px;
+    height: 20px;
+    border-radius: 50%;
+    padding:7px;
+    text-align: center;
+}
+
+.fa-envelope{
+   font-size: 15px;
+   color:white;
+    background-color: black;
+    width:20px;
+    height: 20px;
+    border-radius: 50%;
+    padding:7px;
+    text-align: center;
+}
+ #cont .bold{
+   font-size: 20px;
+}
+
+#cont .Contact{
+   margin: 20px;
+   padding:20px;
+   background-color: rgb(247, 145, 162);
+   width:fit-content;
+   box-shadow: 5px 5px rgb(155, 153, 153);
+   /* position: absolute;
+   left:10%; */
+   /* display: none; */
+}
+#cont .Contact h1{
+   padding:20px;
+   background-color: black;
+   color: white;
+}
+#cont .main{
+   display: flex;
+   justify-content: space-evenly;
+}
+#cont .msg{
+   margin: 20px;
+   padding:30px;
+   margin-top: 120px;
+   width: fit-content;
+   /* background-color:palevioletred; */
+   text-align: center;
+   /* margin-top: 20%;
+   margin-left: 70%;
+     */
+     /* display: none; */
+
+}
+#cont .from{
+   margin: 20px;
+   padding:50px;
+   margin-top: 30px;
+   width: fit-content;
+   background: transparent;
+   text-align: center;
+   background-color: rgb(134, 134, 252);
+   box-shadow: 5px 5px rgb(155, 153, 153);
+   display: none;
+}
+#cont .from h1{
+   color: white;
+}
+#cont .from input{
+   margin: 10px;
+   padding: 5px;
+   border-radius: 5px;
+   
+}
+#cont .from button{
+   width: 100%;
+   padding: 5px;
+   margin: 10px;
+   border-radius: 25px;
+   background-color: rgb(43, 211, 43);
+}
+#cont .msg button{
+   margin-top: 10px;
+   padding:10px;
+   border-radius: 25px;
+
+}
+#cont .msg button:hover{
+   background-color: black;
+   color: white;
+}
+#cont .hidden{
+   padding:20px;
+   display: none;
+}
+#cont .hidden h2{
+   color:white;
+}
+/* quiz */
+#quiz{
+    min-height: 100vh;
+    padding-top: 7%;
+
+}
+ #quiz .choices-btn{
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border:1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+#quiz .choices-btn:hover{
+    background-color: #e9e9e9;
+}
+#quiz #next-btn{
+    font-size:16px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;  
+    color: #fff;
+}
+#quiz #next-btn:hover{
+    background-color: #90c6ff;
+}
+#quiz #playagain-btn{
+    font-size:16px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;  
+    color: #fff;
+}
+#quiz #playagain-btn:hover{
+    background-color: #90c6ff;
+}
+#quiz #questions{
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: blueviolet;
+}
+#quiz ul li{
+    list-style-type: none;
+}
+#quiz .selected{
+    background-color: #e9e9e9;
+}
+
+/* about */
+#about{
+    min-height: 100vh;
+    padding-top: 8%;
+    background-color: #efefef;
+}
+#about h1{
+    color: blueviolet;
+}
+/* #about img{
+    width: 450px;
+    height: 500px;
+} */
+#about .p1{
+    margin-top: 10px;
+font-family: 'Times New Roman', Times, serif;
+font-size: 20px;
+
+}
+#about .p2{
+    
+font-family: 'Times New Roman', Times, serif;
+font-size: 18px;
+
+}
+#about .p3{
+    
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    
+    }
+
+#about .line{
+    width:60px;
+   height:3px;
+   display: block;
+   background-color: #172df5;
+}
+.about-con{
+min-height: 100vh;
+padding-top: 8%;
+background-color: #efefef;
+}
+.icon{
+    font-size: 90px;
+    text-align: center;
+    color: #90c6ff;
+    width: 150px;
+    height: 150px;
+   
+}
+.icon:hover{
+    color: white;
+}
+.about-con .card:hover{
+    background-color: #90c6ff;
+    color: white;
+}

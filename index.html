@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Study Online</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg shadow sticky-top" style="background-color: #e3f2fd;">
+    <div class="container  ">
+      <a class="navbar-brand " href="#"><img src="./assests/pen.png" class="p-1"><i
+          class="text-primary h4">E-STUDY</i></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About Us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Courses
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#courses">Courses</a></li>
+              <li><a class="dropdown-item" href="#staffteach">Team</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#quiz">Quiz</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#register">Register</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#cont">Contact</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Home -->
+  <section class="home " id="home">
+    <div class="content text-center">
+        <h1 class="text-primary head mb-3"><b>LEARNING  IS THAT NO</b> <span class="text-danger">ONE CAN</span>
+           </h1>
+           <h1 class="pt-3">TAKE IT AWAY FROM<span class="text-danger"> YOU</span></h1>
+        <h6 class="p-2 mt-5 text-center">Best Online Platform for Learning </h6>
+        
+        <p class="text-center"><a href="#register" class="btn btn-primary ">Join now</a></p>
+    </div>
+    <div class="image">
+        <img src="./assests/home.png">
+    </div>
+</section>
+  <!-- aboutus -->
+  <section id="about">
+    <div class="container">
+      <div class="row align-item-center">
+        <div class="col-lg-4">
+          <img src="./assests/about.png">
+        </div>
+        <div class="col-lg-8 about-card">
+          <h1>About Us</h1>
+          <div class="line"></div>
+          <p class="p1">Welcome to E-Study, an innovative e-learning platform designed to make education accessible,
+            engaging, and interactive for learners worldwide. Our platform offers a diverse range of courses, expert-led
+            content,
+            and cutting-edge technology to enhance the learning experience.</p>
+          <p class="text-primary h5 p1"> we believe in:</p>
+
+          <div class="mt-3 p2">
+            <p><b>Quality Education –</b> Curated courses by industry experts.</p>
+            <p><b>Flexibility –</b>Learn anytime, anywhere at your own pace.</p>
+            <p><b>Interactive Learning –</b>Engaging multimedia content, quizzes, and live sessions.</p>
+            <p><b>Community & Support –</b>Connect with peers and instructors for guidance</p>
+
+
+          </div>
+        </div>
+        <div class=" container about-con">
+          <div class="row  justify-content-evenly ">
+            <div class="col-lg-3 col-sm-5 card staff-card ">
+                        <div class="card-body text-center">
+                <div class="icon mx-auto ">
+                  <i class="fa-solid fa-graduation-cap"></i>                  
+                </div>
+                <div class="card-title h6 text-danger ">
+                  Skilled instructors
+                </div>
+                <div class="card-text">
+                  Create Your productive and engaging learning environment
+                </div>
+
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-5 card staff-card ">
+              
+              <div class="card-body text-center">
+                <div class="icon mx-auto">
+                  <i class="fa-solid fa-globe"></i>
+  
+                </div>
+                <div class="card-title h6 text-danger">
+                  Online Classes
+                </div>
+                <div class="card-text">
+                  Students can access course materials from any place and at any time.
+                </div>
+
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-5 card staff-card">
+              
+              <div class="card-body text-center">
+                <div class="icon mx-auto">
+                  <i class="fa-solid fa-house"></i>
+                </div>
+                <div class="card-title h6 text-danger">
+                  Home Projects
+                </div>
+                <div class="card-text">
+                  To solve problems, meet needs, comply with regulations, and take advantage of opportunitie.
+                </div>
+
+              </div>
+            </div>
+
+            <div class="col-lg-2 col-sm-5 card staff-card">
+
+              <div class="card-body text-center">
+                <div class="icon mx-auto">
+                  <i class="fa-solid fa-book"></i>
+                </div>
+                <div class="card-title h6 text-danger">
+                  Book Library
+                </div>
+                <div class="card-text">
+                  Reading, studying, research, and personal growth                </div>
+
+              </div>
+            </div>
+            <div class="center mt-5 container">
+              Whether you're a student, professional, or lifelong learner,E-Study empowers you with the knowledge and
+            skills needed for success. Join us and start your learning journey today! 
+            </div>
+          </div>
+
+
+
+        </div>
+      </div>
+
+
+
+  </section>
+  <!-- dropdown -->
+  <!-- Courses -->
+  <section id="courses">
+
+
+    <h1 class="text-danger">FIND THE RIGHTS COURSE FOR YOU </h1>
+
+    <div class="swiper">
+      <div class="slider-wrapper container">
+
+        <div class="card-list swiper-wrapper">
+
+          <div class="card-item swiper-slide">
+            <img src="./assests/frontend.png" alt="image" class="image">
+            <h3 class="topic"><a href="./frontend.html">Front End Developer</a></h3>
+          </div>
+          <div class="card-item swiper-slide">
+            <img src="./assests/backend.jfif" alt="image" class="image">
+            <h3 class="topic"><a href="./backend.html">Back-End Developer</a></h3>
+          </div>
+          <div class="card-item swiper-slide">
+            <img src="./assests/sql.jfif" alt="image" class="image">
+            <h3 class="topic"><a href="./database.html">Databases</a></h3>
+          </div>
+          <div class="card-item swiper-slide">
+            <img src="./assests/devops.png" alt="image" class="image">
+            <h3 class="topic"><a href="#">DevOps</a></h3>
+          </div>
+          <div class="card-item swiper-slide">
+            <img src="./assests/reactjs.jfif" alt="image" class="image">
+            <h3 class="topic"><a href="#">Mobile app Development</a></h3>
+          </div>
+
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+
+
+    </div>
+    <h1 class="fullstack">OUR COURSES</h1>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  </section>
+  <!-- staff teach -->
+  <section id="staffteach">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 intro-text">
+          <h1 class="text-center mb-4 text-primary">Our Staff Members To Guide You</h1>
+          <p class="text-center "><b>The Software Institute is a training and accreditation organization
+              we helps people to develop technical skills and knowledge for the software industry..</b> </p>
+        </div>
+        <div class="row  p-4 mt-4">
+          <div class="col-lg-3 col-sm-6 staff-card">
+            <div class="team-member  shadow-on-hover ">
+              <img src="./assests/staff1.jfif" class="staff-img ">
+            </div>
+            <div class="staff-content">
+              <h4 class="staff-name">John Doe</h4>
+              <p class="small">Software Trainer</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 staff-card">
+            <div class="team-member shadow-on-hover ">
+              <img src="./assests/staff2.jfif" class="staff-img">
+            </div>
+            <div class="staff-content">
+              <h4 class="staff-name">Ayan Biswa</h4>
+              <p class="small">Course Developer</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 staff-card">
+            <div class="team-member shadow-on-hover   ">
+              <img src="./assests/staff3.jfif" class="staff-img">
+            </div>
+            <div class="staff-content">
+              <h4 class="staff-name">Udaya</h4>
+              <p class="small">Technical Support Specialist</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 staff-card">
+            <div class="team-member shadow-on-hover ">
+              <img src="./assests/staff4.jfif" class="staff-img">
+            </div>
+            <div class="staff-content">
+              <h4 class="staff-name">Aashi</h4>
+              <p class="small">Admissions Counselor</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- quiz -->
+  <section id="quiz">
+    <div class="container  text-center">
+      <h1 class="text-danger mb-2">Quiz Game</h1>
+      <div class="mb-3"><span id="correct_score"></span>/<span id="total_score"></span></div>
+      <div class="card p-3">
+
+        <div id="questions" class="mt-2 ">
+          <!-- The First Question -->
+
+        </div>
+        <ul id="question_options">
+          <!-- <li id="choices" class="card-body choices-btn border m-2 ">Options</li>
+  <li id="choices" class="card-body choices-btn border m-2 ">Options</li>
+  <li id="choices" class="card-body choices-btn border m-2 ">Options</li>
+  <li id="choices" class="card-body choices-btn border m-2 ">Options</li> -->
+        </ul>
+        <div id="result" class="p-2"></div>
+        <div class="d-flex justify-content-evenly">
+          <button id="playagain-btn">playagain</button>
+          <button id="check-btn" class="btn btn-primary">Check</button>
+        </div>
+      </div>
+    </div>
+    <script src="./quiz.js"></script>
+  </section>
+
+
+  <!-- Register -->
+  <section id="register">
+    <form id="signup" class="container">
+      <h3 class="text-danger text-center">CREATE YOUR ACCOUNT</h3>
+      <div class="mb-3">
+        <label for="exampleInputName" class="form-label">Enter Name</label>
+        <input type="text" class="form-control">
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1">
+      </div>
+      <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+      </div>
+      <div>
+        <div class="text-white text-center bg-success p-2 mb-3"><button type="submit" class="bg-success">SUBMIT</button>
+        </div>
+      </div>
+
+      <div>Already have an account?<a onclick="account()" class="btn btn-primary m-2">Login</a></div>
+
+    </form>
+
+    <!-- // login -->
+    <form id="login" class="container">
+      <h2 class="text-primary text-center">LOGIN YOUR ACCOUNT</h2>
+
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1">
+      </div>
+      <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+      </div>
+      <div>
+        <div class="text-white text-center bg-success p-2 mb-3"><button class="bg-success" type="submit">LOGIN</button>
+        </div>
+      </div>
+
+      <div>
+        <div>Don't have an account?<a onclick="account1()" class="btn btn-danger m-2">Register</a></div>
+      </div>
+    </form>
+  </section>
+
+  <!-- Contact -->
+  <section id="cont">
+    <div class="main">
+      <div class="Contact" id="contact">
+        <h1>Get In Touch</h1>
+        <dL>
+          <dt> <i class="fa-solid fa-address-book"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b class="bold"> Address</b></dt>
+          <br>
+          <dd>&nbsp;34 glassmorphism Street, Display flex City,</dd>
+          <dd>&nbsp;New Delhi.</dd>
+          <br>
+          <dt><i class="fa-solid fa-phone"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Phone</b></dt>
+          <br>
+          <dd>91 9345***000</dd>
+          <br>
+          <dt><i class="fa-solid fa-envelope"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Email</b></dt>
+          <br>
+          <dd>abc12@gmail.com</dd>
+        </dL>
+      </div>
+      <div class="hidden" id="hidden">
+
+        <img src="./assests/new.png">
+        <h2>Learning Never Exhausts The Mind</h2>
+      </div>
+      <div class="msg" id="msg">
+        <h1>JOIN WITH US</h1>
+        <H1>TO LEARN MORE</H1>
+        <button><b onclick="change()">Contact Us</b></button>
+      </div>
+
+
+
+      <div class="from" id="form">
+        <h1>Leave a Message</h1>
+        <table>
+          <tr>
+            <td><input type="text" placeholder="Name"></td>
+          </tr>
+          <tr>
+            <td><input type="email" placeholder="Email"></td>
+          </tr>
+          <tr>
+            <td><input type="number" placeholder="Phone"></td>
+          </tr>
+          <tr>
+            <td><textarea>Message here...</textarea></td>
+          </tr>
+
+          <tr>
+            <td><button onclick="change1()"><b>Send Message</b></button< /td>
+          </tr>
+        </table>
+      </div>
+
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="./script.js"></script>
+
+</body>
+
+</html>
